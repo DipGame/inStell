@@ -1,1 +1,1 @@
-# inStell
+https://dipgame.github.io/inStell/

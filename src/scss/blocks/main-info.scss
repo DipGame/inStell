@@ -1,0 +1,40 @@
+.main-info-items {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.main-info-item {
+    background-color: #dee2e6;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    gap: 14px;
+
+    svg {
+        max-width: 48px;
+        max-height: 48px;
+        min-height: 48px;
+        min-width: 48px;
+    }
+
+    * {
+        color: var(--page-bg);
+    }
+}
+
+.main-info-item-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    .default {
+        font-family: sans-serif;
+        font-size: 18px;
+
+        * {
+            font-family: sans-serif;
+            font-size: 18px;
+        }
+    }
+}

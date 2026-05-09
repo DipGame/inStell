@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>in-stell.ru</title>
+
+	<link rel="icon" href="./img/favicon.ico">
+
+	<link rel="stylesheet" href="./fonts/Merriweather.css" />
+
+	<link rel="stylesheet" href="./css/jquery.fancybox.css" />
+	<link rel="stylesheet" href="./css/swiper-bundle.css" />
+	<link rel="stylesheet" href="./css/main.css" />
+
+	<script src="./js/jquery-3.7.1.min.js"></script>
+	<script src="./js/jquery.fancybox.js"></script>
+	<script src="./js/swiper-bundle.js"></script>
+</head>
+
+<body class="">
+
+	<div class="page-container-top">
+		<div class="page-container-top_container">
+			@@include('blocks/header.html')
+			@@include('blocks/main-title.html')
+			@@include('blocks/main-info.html')
+			@@include('blocks/main-advantages.html')
+		</div>
+	</div>
+
+	<main>
+
+		@@include('blocks/main-gallery.html')
+		@@include('blocks/main-contacts.html')
+		@@include('blocks/main-socials.html')
+		
+
+	</main>
+	@@include('blocks/footer.html')
+
+	<div class="rezult-form ">
+		<div class="rezult-form-container">
+
+			<svg class="rezult-form-close-btn-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+				<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+				<g id="SVGRepo_iconCarrier">
+					<rect width="24" height="24" fill="white"></rect>
+					<path d="M7 17L16.8995 7.10051" stroke="#000000" stroke-linecap="round" stroke-linejoin="round">
+					</path>
+					<path d="M7 7.00001L16.8995 16.8995" stroke="#000000" stroke-linecap="round"
+						stroke-linejoin="round"></path>
+				</g>
+			</svg>
+
+			<div class="rezult-form-container-title">
+
+			</div>
+		</div>
+	</div>
+
+	<script src="./js/addSwiper.js"></script>
+	<script src="./js/index.js"></script>
+</body>
+
+</html>

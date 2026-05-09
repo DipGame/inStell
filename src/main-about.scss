@@ -1,0 +1,35 @@
+.main-about {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.main-about-top-content {
+    display: flex;
+    gap: 24px;
+}
+
+.main-about-top-content-img {
+    min-height: 555px;
+    width: 100%;
+    max-width: 526px;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-about-top-content-text {
+    width: 100%;
+    max-width: 746px;
+    background-color: #f6f7fc;
+    padding: 24px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    .default {
+        gap: 30px;
+    }
+}
